@@ -12,9 +12,9 @@ Enter your birth date and select your gender
 Click submit to see your Akan name
 
 # Behavior-Driven Development (BDD)
-Input: Birth date and gender
+Input: Birthday, birth month, birth year and gender
 
-Output: Akan name based on day of birth and gender
+Output: Akan name based on the day of birth
 Input: Invalid date (day ≤ 0 or day > 31)
 
 Output: Error message requesting the valid date
