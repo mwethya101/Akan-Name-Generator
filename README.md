@@ -6,11 +6,27 @@ Akan names are derived from Ghanaian culture, where children are traditionally g
 # Author information
 Sasha Mwethya
 # Setup instructions
-# Behavior-Driven Development
+Clone this repository
+Open index.html in your web browser
+Enter your birth date and select your gender
+Click submit to see your Akan name
+
+# Behavior-Driven Development (BDD)
+Input: Birth date and gender
+
+Output: Akan name based on day of birth and gender
+Input: Invalid date (day ≤ 0 or day > 31)
+
+Output: Error message requesting the valid date
+Input: Invalid month (month ≤ 0 or month > 12)
+
+Output: Error message requesting a valid month
+
 # Technologies Used
 HTML
 CSS
 JAVASCRIPT
 # Contact Information
 sasha.mwethya@student.moringaschool.com
+# License and Copyright Information
 
