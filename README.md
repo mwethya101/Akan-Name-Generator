@@ -29,4 +29,4 @@ JAVASCRIPT
 # Contact Information
 sasha.mwethya@student.moringaschool.com
 # License and Copyright Information
-
+This project is licensed under the MIT license. @2025 Sasha Mwethya All Rights Reserved 
