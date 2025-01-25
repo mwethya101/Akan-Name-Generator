@@ -3,33 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Akan Name Generator</title>
 </head>
 <body>
-     <div class="me">
-        <form>
-            <label for = "name"> Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-
-            <label for = "year"> Year:</label><br>
-            <input type="text" id="year" name="year"><br>
-
-            <label for = "DOB"> DOB:</label><br>
-            <input type="DOB" id="DOB" name="DOB"><br>
-
-            <label for = "gender"> Gender:</label><br>
-            <input type="gender" id="gender" name="gender"><br>
-
-            <label for = "male"> male:</label><br>
-            <input type="radio" id="male" name="male" value="male"><br>
-
-            <label for = "female"> female:</label><br>
-            <input type="radio" id="female" name="female" value="female"><br>
-
-            <input class="two" type="submit" value="Submit">
+    <div class="container">
+        <h1>Akan Name Generator</h1>
+        <form id="akanForm">
+            <label for="day">Day of Birth:</label>
+            <input type="number" id="day" required>
+            <label for="month">Month of Birth:</label>
+            <input type="number" id="month" required>
+            <label for="year">Year of Birth:</label>
+            <input type="number" id="year" required>
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <button type="submit">Get Akan Name</button>
         </form>
+        <div id="result"></div>
     </div>
-<script src="./scripts/scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
