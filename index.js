@@ -1,7 +1,9 @@
 document
   .getElementById("akanForm")
   .addEventListener("submit", function (event) {
-    {event.preventDefault();}
+    {
+      event.preventDefault();
+    }
 
     const day = parseInt(document.getElementById("day").value);
     const month = parseInt(document.getElementById("month").value);
@@ -20,6 +22,7 @@ document
       "result"
     ).innerText = `Your Akan name is ${akanName}`;
   });
+console.log("Akan Names");
 
 function getAkanName(day, month, year, gender) {
   const CC = Math.floor(year / 100);
