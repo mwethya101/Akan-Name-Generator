@@ -1,56 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color:beige;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    margin: 10px 0 5px;
+  margin: 10px 0 5px;
 }
 
-input, select {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+input,
+select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
-    padding: 10px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+  background-color: #218838;
 }
 
-.description{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+.description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
-.ul{
-    list-style-type: none;
+ nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: black;
+  color: thistle;
+}
+nav ul li {
+    gap: 20px;
 }
